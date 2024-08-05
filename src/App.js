@@ -40,7 +40,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="shop" element={<Shop />} />
+          {/* <Route path="shop" element={<Shop />} />
           <Route path="/product/:id" element={<Product />} />
           <Route path="contact" element={<Contact />} />
           <Route path="about" element={<About />} />
@@ -62,7 +62,7 @@ function App() {
           <Route path="shppping-policy" element={<Shippingpolicy />} />
           <Route path="user-profile" element={<Useradmin />} />
           <Route path="contact-us" element={<Contact />} />
-          <Route path="*" element={<Pagenotfound />} />
+          <Route path="*" element={<Pagenotfound />} /> */}
 
           {/* custmer routes are here */}
 
