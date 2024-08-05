@@ -1,0 +1,53 @@
+.footer-main {
+    padding-top: 50px;
+    /* border-top: 2px solid lightgrey; */
+    box-shadow: 0px -22px 25px 20px white;
+}
+
+.footer-main ul {
+    padding: 0px;
+    list-style: none;
+}
+
+.footer-main ul li {
+    font-weight: 500;
+    padding: 20px 0px;
+    border-bottom: 2px solid lightgrey;
+    border-width: 50%;
+    width: 50%;
+    margin: auto;
+}
+
+.footer-main .footer-top h4 {
+    padding-left: 24%;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.footer-bottom .footer-socila-icons i {
+    padding: 5px;
+}
+
+.footer-main a {
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 576px) {
+
+    .footer-main ul li {
+        width: 100% !important;
+    }
+
+    .footer-main {
+        padding-top: 50px;
+        /* border-top: 2px solid lightgrey; */
+        box-shadow: 0px -42px 25px 25px white;
+    }
+    .footer-main .footer-top h4 {
+        padding-left: 0px;
+    }
+}

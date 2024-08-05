@@ -1,0 +1,44 @@
+.confirmeorder-main {
+    padding: 20px;
+    min-height: 25Vw;
+    background-color: #EFF1F9;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.confirmeorder-main .help-div {
+    width: 100%;
+}
+
+.confirmeorder-main .confirmeorder-product-info {
+    padding: 20px;
+    background-image: linear-gradient(180deg, #EAE5E0 0%, #9B9084 100%);
+    border-radius: 20px;
+    box-shadow: -2px 3px 8px #545454;
+    height: 100%;
+}
+
+.confirmeorder-main .confirmeorder-product-info h4 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.confirmeorder-main .confirmeorder-product-info table {
+    width: 100%;
+}
+
+.confirmeorder-main .confirmeorder-product-info table td {
+    min-width: 100px;
+    font-weight: 600;
+}
+
+.confirmeorder-main .confirmation-billing-address,  .confirmeorder-main .confirmation-shipping-address {
+    padding: 20px;
+    background-image: linear-gradient(180deg, #EAE5E0 0%, #9B9084 100%);
+    border-radius: 20px;
+    box-shadow: -2px 3px 8px #545454;
+    min-height: 45%;
+} 

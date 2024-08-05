@@ -1,0 +1,167 @@
+.useradmin {
+    padding: 100px 0px;
+    background-color: #404040;
+}
+
+.useradmin .userprofile-left {
+    background-color: white;
+    border-radius: 10px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.userprofile-left li .active {
+    width: 100%;
+    background-color: black !important;
+    border: none;
+    color: white !important;
+    font-weight: 600;
+    border-radius: 0px;
+    border-radius: 0px !important;
+}
+
+.userprofile-left li button{
+    width: 100%;
+    border-radius: 0px;
+    background-color: white !important;
+    border-radius: 0px !important;
+    color: black !important;
+    text-align: start;
+}
+
+.userprofile-left li button:hover {
+    border: none !important;
+    background-color: white;
+}
+
+.userprofile-left li button:focus {
+    border: none !important;
+}
+
+.userprofile-left li button i {
+    padding-right: 20px;
+}
+
+.userprofile-left .nav-tabs .nav-link {
+    border: none !important;
+    margin: 0px !important;
+}
+
+.userprofile-left ul#vertical-tabs {
+    border: none;
+}
+
+.userprofile-left .userprofile .userprofile-main {
+    min-height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-orderinfo-main .user-orderinfo {
+    background: white;
+    padding: 15px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.user-orderinfo-main .user-orderinfo table {
+    width: 100%;
+}
+
+.user-orderinfo-main .user-orderinfo table, .user-orderinfo-main .user-orderinfo table tr {
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+}
+
+.user-orderinfo-main .user-orderinfo table td, .user-orderinfo-main .user-orderinfo table th {
+    padding: 10px;
+}
+
+.user-orderinfo-main img {
+    max-width: 80px;
+    border-radius: 5px;
+}
+
+.user-orderinfo-main .user-addressinfo {
+    background: white;
+    padding: 15px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.user-addres-main {
+    display: flex;
+}
+
+.user-addres-main .user-address {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.user-addres-main table, .user-addres-main tr {
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+.user-addres-main td {
+    padding: 10px;
+}
+
+.user-addres-main .user-address td.user-editinfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-addres-main .user-address td.user-editinfo .btn {
+    width: 48%;
+}
+
+.user-addres-main .user-address td.user-editinfo button.btn.btn-edit {
+    background-color: #c5c5c5;
+    transition: all 0.5s;
+}
+
+.user-addres-main .user-address td.user-editinfo button.btn.btn-edit:hover {
+    background-color: black;
+    color: white;
+}
+
+.user-addres-main .user-address td.user-editinfo button.btn.btn-delete {
+    border: 1px solid black;
+    transition: all 0.5s;
+}
+
+.user-addres-main .user-address td.user-editinfo button.btn.btn-delete:hover {
+    background-color: black;
+    color: white;
+}
+
+.user-profile-main {
+    background: white;
+    padding: 15px;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.user-profile-main input {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
+
+@media screen and (max-width: 576px) {
+    .user-orderinfo-main .user-orderinfo {
+        overflow-x: scroll;
+    }
+
+    .user-orderinfo-main .user-orderinfo table .productdisc{
+        min-width: 300px;
+    }
+
+    .user-addres-main {
+        flex-wrap: wrap;
+    }
+}

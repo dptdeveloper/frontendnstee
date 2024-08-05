@@ -1,0 +1,22 @@
+.slick-slider {
+    text-align: center;
+}
+
+.slickslider-div {
+    max-width: 80%;
+    padding-top: 50px;
+    transition: all 0.5s;
+}
+
+.slick-slide.slick-active.slick-center.slick-current .slickslider-div {
+    padding: 0px;
+    max-width: 100%;
+}
+
+.clientpost-card {
+    margin: 0px 17px;
+}
+
+.clientpost-card-info img {
+    width: 50px;
+}

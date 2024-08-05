@@ -1,0 +1,35 @@
+.shop-main img {
+    width: 100%;
+}
+
+.shop-main{
+    overflow-y: hidden;
+}
+
+.shop-main .col-sm-6 {
+    position: relative;
+}
+
+.shop-main .col-sm-6 .product-name {
+    position: absolute;
+}
+
+.shop-main .col-sm-6 .product-name {
+    position: absolute;
+    z-index: 111;
+    bottom: 0px;
+    width: 100%;
+    /* text-align: center; */
+    color: white;
+    /* font-weight: 500; */
+    background-color: #ffffff00;
+    backdrop-filter: blur(6px);
+    padding: 25px 10px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.product-name h2 {
+    padding-left: 30px;
+    font-weight: 400;
+}

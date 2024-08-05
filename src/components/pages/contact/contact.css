@@ -1,0 +1,112 @@
+.contact-main {
+    background-color: #404040;
+    padding: 100px 0px;
+    color: white;
+    position: relative;
+}
+
+.contact-main .contactform {
+    background: white;
+    padding: 15px;
+    width: 60%;
+    background-image: url('/public/assets/images/xz.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 150px;
+}
+
+.contact-main .contactform input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.contact-main textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid black;
+    height: 150px;
+}
+
+.contact-main .contact-info {
+    position: absolute;
+    width: 35vw;
+    background-color: white;
+    right: 10vw;
+    top: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.contact-main .contact-info a {
+    color: black;
+    text-decoration: none;
+}
+
+.contact-main {
+    background-color: #404040;
+    padding: 100px 0px;
+    color: white;
+}
+
+.contactform {
+    background: white;
+    padding: 15px;
+    width: 70%;
+}
+
+.contactform input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.social-icons-contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons-contact div {
+    padding: 10px;
+    background-color: black;
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 2px solid black;
+    transition: all 0.5s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.social-icons-contact div:hover {
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width: 576px) {
+    .contact-main .contactform {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .contact-main .contact-info {
+        width: 100%;
+        position: static;
+    }
+}

@@ -1,0 +1,26 @@
+.payment-main {
+    min-height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/public/assets/images/Banner\ Payment.png');
+    background-size: cover;
+    background-color: #404040;
+}
+
+.payment-main .container {
+    text-align: center;
+}
+
+.payment-main button {
+    background-image: linear-gradient(88deg, #9b9185, #9b91855e);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.payment-main h2 {
+    color: white;
+}

@@ -1,0 +1,195 @@
+.registration-form {
+    min-width: 500px;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px 30px;
+    border-radius: 10px;
+    background-image: linear-gradient(360deg, #b9b2a9, #d5d1cb);
+    box-shadow: 0px 4px 3px 1px grey;
+}
+
+.registration-form input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-image: linear-gradient(88deg, #9b9185, #9b91855e);
+    color: black;
+    font-weight: 600;
+}
+
+.registration-form input:focus-visible {
+    border: none;
+    outline: none;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.registration-form input::-webkit-outer-spin-button,
+.registration-form input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.registration-form input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.registration-form .check-boxes input {
+    width: auto;
+    margin-right: 10px;
+}
+
+.registration-form .check-boxes div {
+    display: flex;
+    align-content: center;
+    align-items: baseline;
+}
+
+.registration-form .submitbutton[type="button"] {
+    width: 40%;
+    margin-top: 15px;
+    color: white;
+    background-color: black !important;
+    background-image: none;
+    font-weight: 700;
+}
+
+.check-boxes p {
+    font-weight: 500;
+}
+
+.registration-form ::placeholder {
+    color: #d2d2d2;
+    opacity: 1;
+  }
+
+.registration-form ::-ms-input-placeholder {
+    color: #d2d2d2;
+}
+
+
+/* login for style starts here */
+
+.loginlinks a {
+    text-decoration: none;
+    color: black;
+}
+
+.login-with-social {
+    text-align: center;
+}
+
+.login-with-social img {
+    padding: 5px 10px;
+}
+
+@media screen and (max-width: 576px) {
+    .registration-form {
+        min-width: 100%;
+    }
+}
+
+/* my new changes */
+
+.registration-form {
+    max-width: 1000px;
+    background-image: url('/public/assets/images/xz.jpg');
+    background-size: cover;
+    margin: auto;
+    min-width: 750px;
+}
+
+.formmain-registration {
+    background-color: transparent;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.registration-form input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-image: none;
+    color: black;
+    font-weight: 600;
+    background-color: transparent;
+    border-bottom: 2px solid #404040;
+    border-radius: 0px;
+}
+
+.registration-form ::placeholder {
+    color: #404040;
+    opacity: 1;
+  }
+
+.registration-form ::-ms-input-placeholder {
+    color: #404040;
+}
+
+.registration-form .submitbutton[type="button"] {
+    background-color: #404040 !important;
+    transition: all 0.5s;
+    border-radius: 5px;
+}
+
+.registration-form .submitbutton[type="button"]:hover {
+    background-color: black !important;
+}
+
+.registration-form input:focus-visible {
+    border-bottom: 2px solid black;
+}
+
+.check-boxes p {
+    color: #404040;
+}
+
+.form-floteimage {
+    position: absolute;
+    width: 65%;
+    bottom: -21px;
+    left: 50px;
+}
+
+.passwordinput-div {
+    position: relative;
+}
+
+.passwordinput-div button {
+    position: absolute;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    /* color: white; */
+}
+
+@media screen and (max-width: 576px) {
+    .registration-form {
+        max-width: none !important;
+        min-width: 100% !important;
+    }
+
+    .registration-form .col-sm-7 img{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .registration-form {
+        max-width: none !important;
+        min-width: 100% !important;
+    }
+
+    .form-floteimage {
+        width: 90%;
+        left: 10px;
+    }
+/* 
+    .registration-form .col-sm-7 img{
+        display: none;
+    } */
+}

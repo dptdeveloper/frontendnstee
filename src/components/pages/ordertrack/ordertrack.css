@@ -1,0 +1,51 @@
+.track-order-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vw;
+    background: #404040;
+}
+
+.track-order-main h5 img {
+    max-width: 30px;
+    margin-left: 10px;
+}
+
+.track-order-main .track-order {
+    max-width: 250px;
+    text-align: center;
+}
+
+.track-order-main input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: 1px solid darkgrey;
+}
+
+.track-order-main input[type="submit"] {
+    padding: 10px 30px;
+    background-color: #c5c5c5;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: all 0.5s;
+    margin-top: 10px;
+}
+
+.track-order-main input[type="submit"]:hover {
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 576px) {
+    .track-order-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 116vw;
+        background: #404040;
+    }
+}

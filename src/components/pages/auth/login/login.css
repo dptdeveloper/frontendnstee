@@ -1,0 +1,25 @@
+.login-main {
+    padding: 70px 20px;
+    background-image: none;
+    padding-bottom: 150px;
+    min-height: 1100px;
+    background-color: #404040;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 576px) {
+    .login-main {
+        min-height: 100vh;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .login-main .form-floteimage {
+        width: 67%;
+        left: 50px;
+
+    }
+}

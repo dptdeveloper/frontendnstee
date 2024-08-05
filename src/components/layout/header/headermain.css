@@ -1,0 +1,40 @@
+
+.home-headermain .logo {
+    max-width: 100px;
+}
+
+.home-headermain {
+    position: fixed;
+    top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #384967;
+    padding: 20px 50px;
+    border-radius: 50px;
+    z-index: 11111;
+    box-shadow: -2px 2px 4px 1px #0000009c;
+    width: 90%;
+    transform: translateX(5%);
+}
+
+
+.home-headermain ul li {
+    display: inline-block;
+    color: white;
+    font-weight: 600;
+}
+
+.home-headermain ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.home-headermain ul li a {
+    padding: 15px;
+}
+
+.home-header-toggle i {
+    color: white;
+}

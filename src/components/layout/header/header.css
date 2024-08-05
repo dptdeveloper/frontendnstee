@@ -1,0 +1,131 @@
+/* .header-main {
+    background-color: #d8d4cf;
+}
+
+.header-main ul {
+    display: none;
+}
+
+.header-main .menu-button {
+    display: inline-flex;
+} */
+
+/* .header-main .logo {
+    max-width: 200px;
+}
+
+.header-main {
+    background-image: linear-gradient(180deg, #4E668C -45.11%, #222B41 70.97%);
+    margin-top: -25px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+} */
+
+/* Header.css */
+.navbar {
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .navbar-brand,
+  .nav-link {
+    color: #fff !important;
+  }
+  
+  .navbar-toggler-icon {
+    filter: invert(1);
+  }
+
+  .navbar {
+    transition: background-color 0.3s ease;
+    background-color: transparent;
+    /* box-shadow: -1px 3px 12px #00000087; */
+    justify-content: space-between !important;
+}
+
+.headerlogo-div img {
+    max-width: 140px;
+}
+
+.navbar.scrolled {
+    background: white;
+}
+
+.headercart-div {
+  margin-right: 0px;
+}
+
+.empty {
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.empty i {
+  padding-right: 10px;
+}
+
+.sidemenu-header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100vh;
+  background-color: #404040;
+  width: 30vw;
+  z-index: 10;
+  transition: all 0.5s;
+  color: lightgrey;
+}
+
+.sidemenu-header ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.sidemenu-header ul li {
+  padding: 10px;
+  border-bottom: 2px solid lightgray;
+  margin: 20px;
+}
+
+.sidemenu-header i {
+  padding: 10px;
+  cursor: pointer;
+  color: lightgrey;
+}
+
+.header-overlay {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 5;
+  background-color: #6d6d6d5e;
+  transition: all 0.5s;
+}
+
+.header-overlay-hide {
+  display: none;
+}
+
+.sidemenu-header-hide {
+  left: -100vw;
+}
+
+.sidemenu-header ul li a {
+  color: lightgray;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 576px) {
+  .sidemenu-header {
+    width: 60vw;
+  }
+}

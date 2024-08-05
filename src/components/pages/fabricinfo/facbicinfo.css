@@ -1,0 +1,8 @@
+
+.fabric-main .fabric-first {
+    width: 100%;
+    height: 1700px;
+    background-image: url(http://localhost:3000/static/media/hero-landscape.cec377b….jpg);
+    background-size: cover;
+    background-position: center;
+}
