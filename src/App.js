@@ -26,12 +26,6 @@ import Returnpolicy from './components/pages/returnpolicy/returnpolicy';
 import Shippingpolicy from './components/pages/shippingpolicy/shippingpolicy';
 import Pagenotfound from './components/pages/notfound/pagenotfound';
 import Useradmin from './components/useradmin/useradmin';
-// import Account from './components/customer/Account';
-// import Orders from './components/customer/Orders';
-// import OrderDetail from './components/customer/OrderDetail';
-// import Wishlist from './components/customer/Wishlist';
-// import Notifications from './components/customer/Notifications';
-// import Settings from './components/customer/Settings';
 
 function App() {
   return (
@@ -40,7 +34,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="shop" element={<Shop />} />
+          <Route path="shop" element={<Shop />} />
           <Route path="/product/:id" element={<Product />} />
           <Route path="contact" element={<Contact />} />
           <Route path="about" element={<About />} />
@@ -62,16 +56,7 @@ function App() {
           <Route path="shppping-policy" element={<Shippingpolicy />} />
           <Route path="user-profile" element={<Useradmin />} />
           <Route path="contact-us" element={<Contact />} />
-          <Route path="*" element={<Pagenotfound />} /> */}
-
-          {/* custmer routes are here */}
-
-          {/* <Route path="/customer/account/" element={<Account />} />
-          <Route path="/customer/orders/" element={<Orders />} />
-          <Route path="/customer/order/detail/:order_oid/" element={<OrderDetail />} />
-          <Route path="/customer/wishlist/" element={<Wishlist />} />
-          <Route path="/customer/notifications/" element={<Notifications />} />
-          <Route path="/customer/settings/" element={<Settings />} /> */}
+          <Route path="*" element={<Pagenotfound />} />
         </Routes>
       </BrowserRouter>
       <Footer></Footer>
