@@ -166,7 +166,7 @@ export default function Cart(scroll) {
   return (
     <>
       <button className='cart-button' onClick={handleClick}>
-        <img src={scrolled ? '/assets/images/icons/cart1.png' : '/assets/images/icons/cart2.png'} />
+        <img src={scrolled ? '/assets/images/icons/cartone.png' : '/assets/images/icons/carttwo.png'} />
         {console.log(scrolled, 'scrolled is here')}
       </button>
       <div className='cart-main hidecart' ref={cartRef}>
