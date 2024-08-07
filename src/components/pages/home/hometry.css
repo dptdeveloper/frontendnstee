@@ -1,6 +1,6 @@
-@import 'https://unpkg.com/open-props' layer(design.system);
+/* @import 'https://unpkg.com/open-props' layer(design.system);
 @import 'https://unpkg.com/open-props/normalize.dark.min.css'
-  layer(base.normalize);
+  layer(base.normalize); */
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&display=swap');
 
