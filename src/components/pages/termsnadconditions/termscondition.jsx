@@ -32,7 +32,7 @@ export default function Termscondition() {
                         <h3>4. Product Information and Pricing</h3>
                         <ol>
                             <li>We strive to provide accurate product information, including descriptions, images, and prices. However, we do not warrant the accuracy, completeness, or reliability of such information.</li>
-                            <li></li>Product prices are subject to change without notice. All prices are listed in Rupee and are inclusive of applicable taxes.
+                            <li>Product prices are subject to change without notice. All prices are listed in Rupee and are inclusive of applicable taxes.</li>
                         </ol>
                         <h3>5. Orders and Payments</h3>
                         <ol>
