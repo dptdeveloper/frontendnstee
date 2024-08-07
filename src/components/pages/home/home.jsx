@@ -5,7 +5,7 @@ import './home.css';
 import CenterMode from '../../comcomponents/slickslider';
 import Subscribe from '../../comcomponents/subscribe';
 import Headermain from '../../layout/header/headermain';
-import Homeproductshow from './homeproductshow';
+// import Homeproductshow from './homeproductshow';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
