@@ -54,7 +54,7 @@ export default function Cart(scroll) {
 
   const gettotal = async () => {
     if (!userid) {
-      window.alert('login is required')
+      // window.alert('login is required')
     } else {
       axios.get(`${apiurl}/cart-detail/${cartid}/${id.user_id}`)
         .then((res) => {
