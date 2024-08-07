@@ -53,7 +53,7 @@ export default function Home() {
       </div>
       {/* <Homeproductbanner /> */}
       <div className='home-product-show'>
-        <h1 className='heading-text-shadow text-center py-5'>Crew Neck Supima</h1>
+        <h1 className='heading-text-shadow text-center py-5 mx-auto'>Crew Neck Supima</h1>
         {/* <Homeproductshow /> */}
         <div className='row secondsec-desktop'>
           <div className='col-sm-4'>
