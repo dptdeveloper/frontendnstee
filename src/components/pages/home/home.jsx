@@ -47,7 +47,7 @@ export default function Home() {
           {/* Image for medium screens */}
           <source srcSet="/assets/images/productimages/home/banner.png" media="(min-width: 600px)" />
 
-          <img src="/assets/images/productimages/home/webside banner.webp" className='img-fluid'/>
+          <img src="/assets/images/productimages/home/webside banner.webp" className='img-fluid w-100'/>
         </picture>
         {/* <img src='/assets/images/productimages/home/banner.png' className='img-fluid' /> */}
       </div>

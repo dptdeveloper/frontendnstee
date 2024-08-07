@@ -270,6 +270,8 @@ button.btn.postyours {
 img.img-fluid.home-product-infosec-leftimage {
   position: absolute;
   max-width: 41vw;
+  left: 50%;
+  transform: translateX(-50%) !important;
 }
 
 .home-product-infosec {
@@ -282,7 +284,7 @@ img.img-fluid.home-product-infosec-leftimage {
 
 img.img-fluid.home-product-infosec-smallimageone {
   position: absolute;
-  right: 11vw;
+  right: 15vw;
   max-width: 10vw;
   top: 15vw;
   filter: drop-shadow(-3px 3px 10px rgb(51, 26, 14));
@@ -294,15 +296,14 @@ img.img-fluid.home-product-infosec-smallimagetwo {
   max-width: 10vw;
   top: 26vw;
   filter: drop-shadow(-3px 3px 10px rgb(51, 26, 14));
-  left: 15vw;
+  left: 9.5vw;
 }
 
 img.img-fluid.home-product-infosec-smallimagethree {
   position: absolute;
-  right: 11vw;
+  right: 16vw;
   max-width: 10vw;
   top: 46vw;
-  -webkit-filter: drop-shadow(-3px 3px 10px rgb(51, 26, 14));
   filter: drop-shadow(-3px 3px 10px rgb(51, 26, 14));
   z-index: 2;
 }
@@ -313,7 +314,7 @@ img.img-fluid.home-product-infosec-smallimagethree {
   height: 1px;
   position: absolute;
   top: 20vw;
-  left: 57vw;
+  left: 53vw;
   border-top: 2px dashed #818181;
 }
 
@@ -323,7 +324,7 @@ img.img-fluid.home-product-infosec-smallimagethree {
   height: 1px;
   position: absolute;
   top: 31vw;
-  left: 25vw;
+  left: 19.5vw;
   border-top: 2px dashed #818181;
 }
 
@@ -333,7 +334,7 @@ img.img-fluid.home-product-infosec-smallimagethree {
   height: 1px;
   position: absolute;
   top: 51vw;
-  left: 62vw;
+  left: 57vw;
   border-top: 2px dashed #818181;
 }
 
