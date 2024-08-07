@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { Element, scroller, scrollSpy } from 'react-scroll';
+// import { Element, scroller, scrollSpy } from 'react-scroll';
 import './home.css';
 // import Slickslider from '../../comcomponents/slickslider';
 import CenterMode from '../../comcomponents/slickslider';
 import Subscribe from '../../comcomponents/subscribe';
-import Headermain from '../../layout/header/headermain';
+// import Headermain from '../../layout/header/headermain';
 // import Homeproductshow from './homeproductshow';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
