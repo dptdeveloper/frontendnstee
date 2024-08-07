@@ -70,7 +70,7 @@ function CenterMode() {
                             <div className='clientpost-card'>
                                 <img src='/assets/images/postcard/sarang.webp' className='main-image img-fluid' />
                                 <div className='clientpost-card-info'>
-                                    <img src='/assets/images/postcard/sarang.webp' />
+                                    <img src='/assets/images/postcard/Sarang.webp' />
                                     <h5>Sarang</h5>
                                 </div>
                             </div>
