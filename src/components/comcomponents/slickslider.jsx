@@ -45,8 +45,8 @@ function CenterMode() {
         <>
             <div className="container">
                 <h1 class="heading-text-shadow text-center py-5 text-white">Our Customer Wall</h1>
-                <div className="slider-container" data-aos="zoom-in" data-aos-offset="0" data-aos-easing="ease-in-sine" data-aos-duration="1000" data-aos-delay="1000" />
-                <div className='one-text' data-aos="zoom-in" data-aos-offset="0" data-aos-easing="ease-in-sine" data-aos-duration="1000" data-aos-delay="1000">
+                {/* <div className="slider-container" data-aos="zoom-in" data-aos-offset="0" data-aos-easing="ease-in-sine" data-aos-duration="1000" /> */}
+                <div className='one-text' data-aos="zoom-in" data-aos-offset="0" data-aos-easing="ease-in-sine" data-aos-duration="1000">
                     <Slider {...settings}>
                         <div className="slickslider-div">
                             <div className='clientpost-card'>
