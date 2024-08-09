@@ -1,1 +1,1 @@
-export const apiurl = 'https://backend.nstee.in/api/v1';
+// export const apiurl = 'https://backend.nstee.in/api/v1';
