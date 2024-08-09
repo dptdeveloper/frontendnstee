@@ -1,1 +1,1 @@
-export const apiurl = 'http://65.0.173.131:8000/api/v1';
+export const apiurl = 'https://backend.nstee.in/api/v1';
